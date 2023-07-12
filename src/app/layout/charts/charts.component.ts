@@ -13,9 +13,6 @@ export class ChartsComponent implements OnInit {
 
 // powerbi
 
-
-   
-      
     // bar chart
     public barChartOptions: any = {
         scaleShowVerticalLines: false,

@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { PowerBIEmbedModule } from 'powerbi-client-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
@@ -16,10 +17,13 @@ import { LanguageTranslationModule } from './shared/modules/language-translation
         BrowserAnimationsModule,
         HttpClientModule,
         LanguageTranslationModule,
-        AppRoutingModule
+        AppRoutingModule,
+        PowerBIEmbedModule
     ],
     declarations: [AppComponent],
     providers: [AuthGuard],
     bootstrap: [AppComponent]
 })
+
+
 export class AppModule {}

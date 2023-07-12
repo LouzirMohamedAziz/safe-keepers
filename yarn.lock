@@ -5486,7 +5486,15 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-powerbi-client@^2.22.3:
+powerbi-client-angular@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.npmjs.org/powerbi-client-angular/-/powerbi-client-angular-3.0.5.tgz"
+  integrity sha512-KIgFZTWlZ6UsJ8sVhhiLzL08uDL8j+JSLwmFiryi52cfeYUJpPr7UbORnso7O34N8fJ0KFDrkauHRtg4HO2QKA==
+  dependencies:
+    powerbi-client "^2.21.1"
+    tslib "^2.1.0"
+
+powerbi-client@^2.21.1, powerbi-client@^2.22.3:
   version "2.22.3"
   resolved "https://registry.npmjs.org/powerbi-client/-/powerbi-client-2.22.3.tgz"
   integrity sha512-IUf0OCXBR7sX1zcId47L94/TD9ljWztEqMPyhtMFZ9zFsdY4G68B1+7AAE9+bYqAQrKznJTHvcLQAnWvYQh/9A==
